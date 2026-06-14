@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projets Data et Full Stack | Marc Sousa</title>
-    <meta name="description" content="Projets de Marc Sousa: application MP Renov, migration Access vers PostgreSQL, outil de tickets et MEDIA4 Visualizer en prototype.">
+    <title>Projets Data, Full Stack et Unity | Marc Sousa</title>
+    <meta name="description" content="Projets de Marc Sousa: MP Renov, migration Access vers PostgreSQL, budget communautaire, jeu labyrinthe Unity 3D avec DFS et MEDIA4 Visualizer.">
     <link rel="icon" href="assets/media/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js" defer></script>
@@ -31,10 +31,10 @@
     <main>
       <section class="page-hero section-shell" data-reveal>
         <p class="eyebrow">Projets</p>
-        <h1>Des projets utiles, orientés données et besoins métier</h1>
+        <h1>Des projets utiles, orientés données, applications et algorithmique</h1>
         <p class="lead">
-          Ces projets montrent ma capacité à transformer un besoin opérationnel en solution
-          technique: application web, migration de données, reporting et automatisation.
+          Ces projets montrent ma capacité à transformer un besoin en solution technique:
+          application web, migration de données, aide à la décision, API REST et gameplay procédural.
         </p>
       </section>
 
@@ -42,9 +42,9 @@
         <article class="project-detail">
           <div class="project-visual visual-web" aria-hidden="true"><span></span><span></span><span></span></div>
           <div>
-            <span class="status-pill">Projet entreprise</span>
+            <span class="status-pill">Projet entreprise - stage en cours</span>
             <h2>Application de gestion de chantiers MP Renov</h2>
-            <p><strong>Problème à résoudre.</strong> Centraliser les informations liées aux chantiers, aux utilisateurs, aux fichiers et aux données métier dans un outil exploitable par l'entreprise.</p>
+            <p><strong>Problème à résoudre.</strong> Centraliser les informations liées aux chantiers, utilisateurs, fichiers, images et données métier dans un outil exploitable par l'entreprise.</p>
             <p><strong>Solution développée.</strong> Application Full Stack avec React, gestion des rôles, formulaires dynamiques, stockage de fichiers/buckets OVH, notifications e-mail/SMS, géolocalisation et génération de rapports PDF.</p>
             <p><strong>Impact métier.</strong> Réduction des tâches manuelles, meilleure visibilité sur les chantiers et amélioration du suivi opérationnel.</p>
             <div class="tag-list"><span>React</span><span>OVH</span><span>PDF</span><span>E-mail/SMS</span><span>Images</span><span>Géolocalisation</span></div>
@@ -57,10 +57,37 @@
           <div>
             <span class="status-pill">Migration data</span>
             <h2>Migration Access vers PostgreSQL / outil de gestion de tickets</h2>
-            <p><strong>Problème à résoudre.</strong> Remplacer une base Microsoft Access locale par un système plus fiable, automatisé et adapté à des règles métier.</p>
-            <p><strong>Solution développée.</strong> Scripts Python de correction, base PostgreSQL avec tables, triggers et règles métiers, application Scriptcase, RBAC, workflows, tableaux de bord, exports Excel et rapports PDF.</p>
-            <p><strong>Impact métier.</strong> Données plus fiables, tickets mieux structurés, suivi SLA automatisé et meilleure traçabilité des actions.</p>
-            <div class="tag-list"><span>Python</span><span>SQL</span><span>PostgreSQL</span><span>Microsoft Access</span><span>Scriptcase</span><span>Excel</span></div>
+            <p><strong>Problème à résoudre.</strong> Remplacer une base Microsoft Access locale, mono-utilisateur et fragile par un système centralisé, sécurisé et multi-utilisateurs.</p>
+            <p><strong>Solution développée.</strong> Conversion .mdb avec mdbtools/MBTool, correction SQL/CSV, scripts Python UTF-8, base PostgreSQL avec triggers, application Scriptcase, RBAC, workflows, tableaux de bord, exports Excel et rapports PDF.</p>
+            <p><strong>Impact métier.</strong> Données plus fiables, tickets mieux structurés, suivi SLA automatisé, historique d'audit et meilleure traçabilité des actions.</p>
+            <div class="tag-list"><span>Python</span><span>SQL</span><span>PostgreSQL</span><span>Microsoft Access</span><span>Scriptcase</span><span>pgAdmin</span><span>Excel</span></div>
+            <button class="button button-disabled" type="button" disabled>Bientôt disponible</button>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-visual visual-budget" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <div>
+            <span class="status-pill">Projet full stack</span>
+            <h2>Application de gestion de budget communautaire</h2>
+            <p><strong>Problème à résoudre.</strong> Permettre à une communauté de communiquer, voter et prendre des décisions budgétaires collectives à partir de choix proposés.</p>
+            <p><strong>Solution développée.</strong> API REST, base MySQL avec triggers et données fictives, site sécurisé avec page d'accueil et login, JavaScript, PHP, HTML/CSS, plus une application Java d'optimisation décisionnelle.</p>
+            <p><strong>Impact métier.</strong> Centralisation des votes et aide à la décision pour retenir les choix les plus pertinents selon les préférences du groupe.</p>
+            <p><strong>Rôle.</strong> Projet réalisé seul pour la partie web/base/API. L'application Java a été réalisée en équipe.</p>
+            <div class="tag-list"><span>Java</span><span>MySQL</span><span>Triggers</span><span>REST API</span><span>PHP</span><span>JavaScript</span><span>Brute force</span></div>
+            <button class="button button-disabled" type="button" disabled>Bientôt disponible</button>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-visual visual-unity" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <div>
+            <span class="status-pill">Projet solo Unity</span>
+            <h2>Jeu labyrinthe 3D avec génération DFS</h2>
+            <p><strong>Problème à résoudre.</strong> Créer un jeu 3D rejouable avec des labyrinthes générés automatiquement et une difficulté modulable.</p>
+            <p><strong>Solution développée.</strong> Algorithme DFS retravaillé pour générer des labyrinthes, déplacements 3D, interactions avec des portes, questions mathématiques sous forme de pattern et niveaux de difficulté influençant la taille du labyrinthe.</p>
+            <p><strong>Impact technique.</strong> Prototype complet réalisé seul, combinant algorithmique, gameplay, interactions utilisateur et paramétrage de difficulté.</p>
+            <div class="tag-list"><span>Unity</span><span>C#</span><span>DFS</span><span>Labyrinthe 3D</span><span>Gameplay</span><span>Difficulté</span></div>
             <button class="button button-disabled" type="button" disabled>Bientôt disponible</button>
           </div>
         </article>

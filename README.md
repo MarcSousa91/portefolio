@@ -11,12 +11,13 @@ Le site présente un profil hybride développement Full Stack / data :
 - Migration, nettoyage et traitement de données.
 - Automatisation, reporting PDF/Excel et tableaux de bord.
 - Expériences MEDIA4 et WAVEKOM.
+- Projets complémentaires: budget communautaire et jeu labyrinthe Unity 3D avec DFS.
 
 ## Pages
 
 - `index.html` : page d'accueil recruteur avec profil, expériences, projets, compétences, formation et contact.
 - `experiences.html` : détail des expériences MEDIA4 et WAVEKOM.
-- `projets.html` : projets MP Renov, migration Access vers PostgreSQL et MEDIA4 Visualizer en prototype envisagé.
+- `projets.html` : projets MP Renov, migration Access vers PostgreSQL, budget communautaire, jeu Unity 3D et MEDIA4 Visualizer en prototype envisagé.
 - `competences.html` : compétences organisées par catégories.
 - `cv.html` : CV web imprimable/exportable en PDF.
 - `contact.html` : email, téléphone, GitHub et LinkedIn à prévoir.
