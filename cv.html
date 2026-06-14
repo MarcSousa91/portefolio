@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV | Marc Sousa</title>
-    <meta name="description" content="CV de Marc Sousa, étudiant en troisième année de BUT Informatique.">
+    <meta name="description" content="CV web de Marc Sousa, étudiant en BUT Informatique recherchant une alternance Data Analyst / Data Scientist.">
+    <link rel="icon" href="assets/media/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js" defer></script>
   </head>
@@ -12,60 +13,40 @@
     <header class="site-header no-print">
       <a class="brand" href="index.html" aria-label="Accueil du portfolio de Marc Sousa">
         <span class="brand-mark">MS</span>
-        <span class="brand-text">Marc Sousa</span>
+        <span><strong>Marc Sousa</strong><small>Data Analyst / Data Scientist</small></span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span class="sr-only">Menu</span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+        <span class="sr-only">Ouvrir le menu</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
         <a href="index.html" data-nav>Accueil</a>
+        <a href="experiences.html" data-nav>Expériences</a>
         <a href="projets.html" data-nav>Projets</a>
-        <a href="stages.html" data-nav>Stages</a>
         <a href="competences.html" data-nav>Compétences</a>
         <a href="cv.html" data-nav>CV</a>
-        <a href="contact.html" data-nav>Contact</a>
+        <a class="nav-cta" href="contact.html" data-nav>Contact</a>
       </nav>
     </header>
 
     <main>
-      <section class="page-hero section-band no-print">
-        <div>
-          <p class="eyebrow">Parcours</p>
-          <h1>CV</h1>
-          <p class="lead">
-            Version web imprimable du CV, avec un emplacement prévu pour ajouter un PDF.
-          </p>
-          <button class="button button-primary" type="button" data-print>Imprimer ou exporter en PDF</button>
-        </div>
-      </section>
-
-      <section class="section no-print">
-        <div class="pdf-panel">
-          <div>
-            <p class="eyebrow">PDF</p>
-            <h2>CV joint</h2>
-            <p>Ajoute ton fichier sous <code>assets/media/cv-marc-sousa.pdf</code> pour l'afficher ici.</p>
-          </div>
-          <object class="pdf-frame" data="assets/media/cv-marc-sousa.pdf" type="application/pdf">
-            <p>Le PDF n'est pas encore ajouté. La version HTML ci-dessous est prête à imprimer.</p>
-          </object>
-        </div>
+      <section class="page-hero section-shell no-print" data-reveal>
+        <p class="eyebrow">CV</p>
+        <h1>CV web imprimable</h1>
+        <p class="lead">Cette page peut être imprimée ou exportée en PDF depuis le navigateur.</p>
+        <button class="button button-primary" type="button" data-print>Imprimer / exporter en PDF</button>
       </section>
 
       <section class="section cv-sheet" aria-label="CV de Marc Sousa">
         <header class="cv-header">
           <div>
-            <p class="eyebrow">CV</p>
-            <h2>Marc Sousa</h2>
-            <p>Étudiant en troisième année de BUT Informatique</p>
+            <p class="eyebrow">Marc Sousa</p>
+            <h2>Recherche alternance Data Analyst / Data Scientist</h2>
+            <p>Étudiant en BUT Informatique - Parcours A : Réalisation d'applications</p>
           </div>
           <div class="cv-contact">
-            <p>GitHub: github.com/MarcSousa91</p>
-            <p>E-mail: à compléter</p>
-            <p>LinkedIn: à compléter</p>
+            <p><a href="mailto:marcsousa@outlook.fr">marcsousa@outlook.fr</a></p>
+            <p><a href="tel:+33769474296">+33 7 69 47 42 96</a></p>
+            <p><a href="https://github.com/MarcSousa91">github.com/MarcSousa91</a></p>
           </div>
         </header>
 
@@ -73,60 +54,68 @@
           <section>
             <h3>Profil</h3>
             <p>
-              Étudiant en BUT Informatique avec des expériences en développement web,
-              bases de données, Unity et architecture applicative. Intérêt particulier
-              pour les projets concrets reliant conception, code et déploiement.
+              Étudiant en BUT Informatique à l'IUT d'Orsay - Université Paris-Saclay,
+              orienté développement Full Stack, bases de données, automatisation,
+              migration et traitement de données.
             </p>
           </section>
-
           <section>
             <h3>Formation</h3>
             <article class="cv-entry">
-              <h4>BUT Informatique - 3e année</h4>
-              <p>Spécialité informatique. Université/IUT à compléter.</p>
+              <h4>BUT Informatique - IUT d'Orsay</h4>
+              <p>Université Paris-Saclay - Septembre 2022 à Août 2026.</p>
+              <p>Parcours A : Réalisation d'applications.</p>
             </article>
           </section>
-
           <section>
             <h3>Expériences</h3>
             <article class="cv-entry">
-              <h4>Stage - Wavekom</h4>
-              <p>Refonte d'une base de données locale avec serveur PostgreSQL et serveur web Scriptcase.</p>
+              <h4>MEDIA4 - Développeur Full Stack Stagiaire</h4>
+              <p>Avril 2026 - Juillet 2026. Application web Full Stack pour MP Renov: React, bases de données, OVH, rapports PDF, notifications e-mail/SMS.</p>
             </article>
             <article class="cv-entry">
-              <h4>Stage/projet web</h4>
-              <p>Développement d'un site web complet avec React, Vite et hébergement bucket OVH.</p>
+              <h4>WAVEKOM - Développeur Full Stack / Data Engineer Stagiaire</h4>
+              <p>Juin 2025 - Août 2025. Migration Access vers PostgreSQL, scripts Python, Scriptcase, RBAC, exports Excel, rapports PDF et workflows automatisés.</p>
             </article>
           </section>
-
           <section>
             <h3>Projets</h3>
             <article class="cv-entry">
-              <h4>Jeu vidéo Unity</h4>
-              <p>Génération procédurale de maps avec un algorithme DFS.</p>
+              <h4>Application de gestion de chantiers MP Renov</h4>
+              <p>Gestion de chantiers, utilisateurs, fichiers, géolocalisation, images, formulaires et rapports.</p>
             </article>
             <article class="cv-entry">
-              <h4>Portfolio scolaire</h4>
-              <p>Site personnel multi-pages présentant les projets, stages, compétences et CV.</p>
+              <h4>Migration Access vers PostgreSQL</h4>
+              <p>Nettoyage, correction, modélisation et exploitation de données métier.</p>
+            </article>
+            <article class="cv-entry">
+              <h4>MEDIA4 Visualizer - prototype envisagé</h4>
+              <p>Simulation de vitrine avec placement d'écran, produits, animation et export image/MP4.</p>
             </article>
           </section>
-
           <section>
             <h3>Compétences techniques</h3>
-            <p>HTML, CSS, JavaScript, React, Vite, C#, Unity, SQL, PostgreSQL, Scriptcase, Git, GitHub, OVH.</p>
+            <p>Python, SQL, Java, JavaScript, HTML, CSS, C++, C#, React, Django, REST API, Scriptcase, PostgreSQL, MySQL, Microsoft Access, Git, Linux, OVH.</p>
           </section>
-
           <section>
-            <h3>Qualités professionnelles</h3>
-            <p>Autonomie, rigueur, analyse du besoin, documentation, collaboration et adaptation.</p>
+            <h3>Data et reporting</h3>
+            <p>Migration de données, nettoyage, traitement, modélisation de bases de données, ETL, reporting, tableaux de bord, génération PDF et export Excel.</p>
+          </section>
+          <section>
+            <h3>Langues</h3>
+            <p>Français: natif. Anglais: B1.</p>
+          </section>
+          <section>
+            <h3>Objectif</h3>
+            <p>Intégrer une alternance Data Analyst / Data Scientist et évoluer vers un poste de Data Scientist.</p>
           </section>
         </div>
       </section>
     </main>
 
     <footer class="site-footer no-print">
-      <p>© 2026 Marc Sousa. Portfolio scolaire BUT Informatique.</p>
-      <a href="contact.html">Me contacter</a>
+      <p>© 2026 Marc Sousa. Portfolio orienté alternance Data Analyst / Data Scientist.</p>
+      <a href="contact.html">Contact</a>
     </footer>
   </body>
 </html>

@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Marc Sousa | Portfolio BUT Informatique</title>
+    <title>Marc Sousa | Alternance Data Analyst / Data Scientist</title>
     <meta
       name="description"
-      content="Portfolio de Marc Sousa, étudiant en troisième année de BUT Informatique: projets web, bases de données, Unity et stages."
+      content="Portfolio de Marc Sousa, étudiant en BUT Informatique à l'IUT d'Orsay, en recherche d'alternance Data Analyst / Data Scientist."
     >
+    <link rel="icon" href="assets/media/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js" defer></script>
   </head>
@@ -15,101 +16,229 @@
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Accueil du portfolio de Marc Sousa">
         <span class="brand-mark">MS</span>
-        <span class="brand-text">Marc Sousa</span>
+        <span>
+          <strong>Marc Sousa</strong>
+          <small>Data Analyst / Data Scientist</small>
+        </span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span class="sr-only">Menu</span>
+        <span class="sr-only">Ouvrir le menu</span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
         <a href="index.html" data-nav>Accueil</a>
+        <a href="experiences.html" data-nav>Expériences</a>
         <a href="projets.html" data-nav>Projets</a>
-        <a href="stages.html" data-nav>Stages</a>
         <a href="competences.html" data-nav>Compétences</a>
         <a href="cv.html" data-nav>CV</a>
-        <a href="contact.html" data-nav>Contact</a>
+        <a class="nav-cta" href="contact.html" data-nav>Contact</a>
       </nav>
     </header>
 
     <main>
-      <section class="hero section-band">
+      <section class="hero section-shell" data-reveal>
         <div class="hero-copy">
-          <p class="eyebrow">Portfolio BUT Informatique</p>
+          <p class="eyebrow">Recherche alternance Data Analyst / Data Scientist</p>
           <h1>Marc Sousa</h1>
+          <p class="hero-title">Étudiant en BUT Informatique à l'IUT d'Orsay - Université Paris-Saclay</p>
           <p class="lead">
-            Étudiant en troisième année de BUT Informatique, spécialisé dans le
-            développement logiciel, les bases de données et la conception de solutions web.
+            Étudiant en BUT Informatique à l'IUT d'Orsay, je recherche une alternance en
+            Data Analyst / Data Scientist. Mes expériences m'ont permis de travailler sur
+            des projets concrets mêlant développement Full Stack, bases de données,
+            automatisation, migration et traitement de données.
           </p>
           <div class="hero-actions" aria-label="Actions principales">
-            <a class="button button-primary" href="projets.html">Voir les projets</a>
-            <a class="button button-secondary" href="cv.html">Consulter le CV</a>
+            <a class="button button-primary" href="projets.html">Voir mes projets</a>
+            <a class="button button-secondary" href="contact.html">Me contacter</a>
+            <a class="button button-ghost" href="cv.html">Télécharger mon CV</a>
           </div>
         </div>
-        <div class="hero-media" aria-label="Illustration du portfolio informatique">
-          <img src="assets/media/hero-portfolio.png" alt="Poste de travail moderne avec code, architecture serveur et grille de jeu abstraite">
+        <div class="hero-media">
+          <img src="assets/media/hero-portfolio.png" alt="Environnement de travail avec code, données et interfaces applicatives">
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="apropos" data-reveal>
         <div class="section-heading">
-          <p class="eyebrow">Profil</p>
-          <h2>Un parcours orienté développement concret</h2>
+          <p class="eyebrow">À propos</p>
+          <h2>Un profil informatique orienté data, automatisation et applications métier</h2>
           <p>
-            Mon portfolio rassemble mes projets scolaires, mes stages et les compétences
-            développées pendant mon BUT Informatique.
+            Je construis mon parcours autour d'un profil hybride: développement Full Stack,
+            Python, SQL, PostgreSQL, traitement de données et reporting. Mon objectif est
+            d'intégrer une spécialisation Data à l'EFREI et d'évoluer vers un poste de
+            Data Scientist.
           </p>
         </div>
-        <div class="highlight-grid">
-          <article class="highlight-card">
-            <span class="card-kicker">Formation</span>
-            <h3>BUT Informatique - 3e année</h3>
-            <p>Approche complète du développement, de l'algorithmique, des données et de la conduite de projet.</p>
+        <div class="value-grid">
+          <article class="value-card">
+            <span>01</span>
+            <h3>Expérience entreprise</h3>
+            <p>Deux stages avec des missions concrètes: applications web, données métier, migration et automatisation.</p>
           </article>
-          <article class="highlight-card">
-            <span class="card-kicker">Projet jeu vidéo</span>
-            <h3>Unity et génération procédurale</h3>
-            <p>Création de cartes procédurales avec un algorithme DFS pour structurer la progression du joueur.</p>
+          <article class="value-card">
+            <span>02</span>
+            <h3>Culture data</h3>
+            <p>SQL, PostgreSQL, nettoyage, modélisation, reporting PDF/Excel et tableaux de bord.</p>
           </article>
-          <article class="highlight-card">
-            <span class="card-kicker">Stage Wavekom</span>
-            <h3>Refonte de base de données</h3>
-            <p>Architecture avec serveur PostgreSQL et serveur web Scriptcase pour remplacer une base locale.</p>
-          </article>
-          <article class="highlight-card">
-            <span class="card-kicker">Web</span>
-            <h3>React, Vite et OVH</h3>
-            <p>Réalisation d'un site web complet avec hébergement et bucket OVH.</p>
+          <article class="value-card">
+            <span>03</span>
+            <h3>Vision produit</h3>
+            <p>Des projets pensés pour répondre à un besoin réel, améliorer un processus et aider les utilisateurs.</p>
           </article>
         </div>
       </section>
 
-      <section class="section split-section">
-        <div>
-          <p class="eyebrow">Ce que je mets en avant</p>
-          <h2>Des projets reliés aux compétences du BUT</h2>
+      <section class="section section-muted" id="experiences" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Expériences</p>
+          <h2>Stages orientés applications, données et automatisation</h2>
         </div>
-        <div class="feature-list">
-          <div class="feature-item">
-            <h3>Concevoir et développer</h3>
-            <p>Interfaces web, applications, scripts, prototypes Unity et parcours utilisateur.</p>
+        <div class="experience-grid">
+          <article class="experience-card">
+            <div class="card-topline">
+              <span class="card-kicker">Avril 2026 - Juillet 2026</span>
+              <span class="status-pill">Full Stack</span>
+            </div>
+            <h3>MEDIA4 - Développeur Full Stack Stagiaire</h3>
+            <p>
+              Application web Full Stack pour MP Renov, société de chantier/rénovation:
+              gestion de chantiers, utilisateurs, données métier, fichiers et rapports.
+            </p>
+            <ul class="check-list">
+              <li>Développement React et gestion des rôles utilisateurs.</li>
+              <li>Bases de données, formulaires dynamiques et rapports PDF.</li>
+              <li>Stockage de fichiers/buckets OVH, notifications e-mail et SMS.</li>
+              <li>Géolocalisation des sites d'intervention et optimisation des images.</li>
+            </ul>
+            <div class="tag-list">
+              <span>React</span><span>OVH</span><span>PDF</span><span>E-mail/SMS</span><span>Bases de données</span>
+            </div>
+          </article>
+          <article class="experience-card">
+            <div class="card-topline">
+              <span class="card-kicker">Juin 2025 - Août 2025</span>
+              <span class="status-pill">Data Engineering</span>
+            </div>
+            <h3>WAVEKOM - Développeur Full Stack / Data Engineer Stagiaire</h3>
+            <p>
+              Migration d'une base Microsoft Access vers PostgreSQL et création d'une
+              application web Scriptcase connectée à une base relationnelle plus robuste.
+            </p>
+            <ul class="check-list">
+              <li>Scripts Python pour corriger encodage, conversion et intégrité des données.</li>
+              <li>Tables PostgreSQL, triggers, règles métier, RBAC et permissions.</li>
+              <li>CRUD, e-mails automatiques, exports Excel, rapports PDF et tableaux de bord.</li>
+              <li>Workflows automatisés, journalisation, tri automatique et calculs SLA.</li>
+            </ul>
+            <div class="tag-list">
+              <span>Python</span><span>PostgreSQL</span><span>Scriptcase</span><span>ETL</span><span>Excel</span>
+            </div>
+          </article>
+        </div>
+        <div class="section-action">
+          <a class="button button-secondary" href="experiences.html">Voir le détail des expériences</a>
+        </div>
+      </section>
+
+      <section class="section" id="projets" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Projets</p>
+          <h2>Projets orientés métier, données et automatisation</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="status-pill">Projet entreprise</span>
+            <h3>Application de gestion de chantiers MP Renov</h3>
+            <p><strong>Problème.</strong> Centraliser le suivi des chantiers, utilisateurs, fichiers et données métier.</p>
+            <p><strong>Solution.</strong> Application Full Stack avec React, rôles, formulaires, stockage OVH et rapports PDF.</p>
+            <p><strong>Impact.</strong> Meilleure organisation opérationnelle et automatisation de tâches administratives.</p>
+            <div class="tag-list"><span>React</span><span>OVH</span><span>PDF</span><span>Notifications</span></div>
+            <button class="button button-disabled" type="button" disabled>Bientôt disponible</button>
+          </article>
+          <article class="project-card">
+            <span class="status-pill">Data migration</span>
+            <h3>Migration Access vers PostgreSQL / outil de tickets</h3>
+            <p><strong>Problème.</strong> Remplacer une base Access locale par une architecture fiable et exploitable.</p>
+            <p><strong>Solution.</strong> Migration PostgreSQL, scripts Python, application Scriptcase et workflows automatisés.</p>
+            <p><strong>Impact.</strong> Données plus propres, gestion des tickets structurée et reporting PDF/Excel.</p>
+            <div class="tag-list"><span>Python</span><span>SQL</span><span>PostgreSQL</span><span>Scriptcase</span></div>
+            <button class="button button-disabled" type="button" disabled>Bientôt disponible</button>
+          </article>
+          <article class="project-card">
+            <span class="status-pill">Prototype envisagé</span>
+            <h3>MEDIA4 Visualizer / simulateur de vitrine</h3>
+            <p><strong>Problème.</strong> Aider un commercial à projeter un écran publicitaire dans une vitrine réelle.</p>
+            <p><strong>Solution envisagée.</strong> Import photo, placement par perspective, ajout de produits et export image/MP4.</p>
+            <p><strong>Impact visé.</strong> Faciliter la projection client et accélérer la préparation d'une proposition commerciale.</p>
+            <div class="tag-list"><span>Prototype</span><span>Image</span><span>Vidéo</span><span>Perspective</span></div>
+            <button class="button button-disabled" type="button" disabled>Bientôt disponible</button>
+          </article>
+        </div>
+        <div class="section-action">
+          <a class="button button-secondary" href="projets.html">Explorer les projets</a>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="competences" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Compétences</p>
+          <h2>Une base technique solide pour évoluer vers la data science</h2>
+        </div>
+        <div class="skills-board">
+          <article>
+            <h3>Langages</h3>
+            <div class="tag-list"><span>Python</span><span>SQL</span><span>Java</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>C++</span><span>C#</span></div>
+          </article>
+          <article>
+            <h3>Web</h3>
+            <div class="tag-list"><span>React</span><span>Django</span><span>REST API</span><span>Scriptcase</span></div>
+          </article>
+          <article>
+            <h3>Bases de données</h3>
+            <div class="tag-list"><span>PostgreSQL</span><span>MySQL</span><span>Microsoft Access</span><span>Modélisation</span></div>
+          </article>
+          <article>
+            <h3>Data</h3>
+            <div class="tag-list"><span>Migration</span><span>Nettoyage</span><span>Traitement</span><span>Reporting</span><span>Tableaux de bord</span><span>ETL</span></div>
+          </article>
+          <article>
+            <h3>Outils</h3>
+            <div class="tag-list"><span>Git</span><span>Linux</span><span>OVH</span><span>PDF</span><span>Excel</span><span>Automatisation e-mail/SMS</span></div>
+          </article>
+          <article>
+            <h3>Langues</h3>
+            <div class="tag-list"><span>Français natif</span><span>Anglais B1</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section formation-contact" data-reveal>
+        <div class="formation-card">
+          <p class="eyebrow">Formation</p>
+          <h2>BUT Informatique - Parcours A : Réalisation d'applications</h2>
+          <p>IUT d'Orsay - Université Paris-Saclay</p>
+          <p>Septembre 2022 - Août 2026</p>
+          <p>Développement d'applications, Java, Python, JavaScript, SQL, bases de données, génie logiciel et analyse de données.</p>
+        </div>
+        <div class="contact-card">
+          <p class="eyebrow">Contact</p>
+          <h2>Disponible pour une alternance Data</h2>
+          <p>Je recherche une alternance formatrice pour renforcer mes compétences en analyse de données, data engineering et data science.</p>
+          <div class="contact-links">
+            <a href="mailto:marcsousa@outlook.fr">marcsousa@outlook.fr</a>
+            <a href="tel:+33769474296">+33 7 69 47 42 96</a>
+            <a href="https://github.com/MarcSousa91" target="_blank" rel="noreferrer">GitHub</a>
           </div>
-          <div class="feature-item">
-            <h3>Gérer les données</h3>
-            <p>Modélisation, migration, PostgreSQL, organisation des données et fiabilisation.</p>
-          </div>
-          <div class="feature-item">
-            <h3>Documenter et présenter</h3>
-            <p>Synthèse des choix techniques, bilan de stage, preuves de compétences et progression.</p>
-          </div>
+          <a class="button button-primary" href="mailto:marcsousa@outlook.fr">Envoyer un e-mail</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 Marc Sousa. Portfolio scolaire BUT Informatique.</p>
-      <a href="contact.html">Me contacter</a>
+      <p>© 2026 Marc Sousa. Portfolio orienté alternance Data Analyst / Data Scientist.</p>
+      <a href="contact.html">Contact</a>
     </footer>
   </body>
 </html>

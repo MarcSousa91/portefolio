@@ -1,34 +1,49 @@
 # Portfolio de Marc Sousa
 
-Site portfolio scolaire pour Marc Sousa, étudiant en troisième année de BUT Informatique.
+Portfolio statique de Marc Sousa, étudiant en BUT Informatique à l'IUT d'Orsay - Université Paris-Saclay, orienté recherche d'alternance Data Analyst / Data Scientist.
+
+## Objectif
+
+Le site présente un profil hybride développement Full Stack / data :
+
+- Python, SQL, PostgreSQL et bases de données.
+- React, Django, REST API et Scriptcase.
+- Migration, nettoyage et traitement de données.
+- Automatisation, reporting PDF/Excel et tableaux de bord.
+- Expériences MEDIA4 et WAVEKOM.
 
 ## Pages
 
-- `index.html`: accueil et présentation générale.
-- `projets.html`: projets Unity, web, données.
-- `stages.html`: stages et missions professionnelles.
-- `competences.html`: compétences techniques et référentiel BUT.
-- `cv.html`: CV web imprimable et emplacement PDF.
-- `contact.html`: liens et coordonnées.
+- `index.html` : page d'accueil recruteur avec profil, expériences, projets, compétences, formation et contact.
+- `experiences.html` : détail des expériences MEDIA4 et WAVEKOM.
+- `projets.html` : projets MP Renov, migration Access vers PostgreSQL et MEDIA4 Visualizer en prototype envisagé.
+- `competences.html` : compétences organisées par catégories.
+- `cv.html` : CV web imprimable/exportable en PDF.
+- `contact.html` : email, téléphone, GitHub et LinkedIn à prévoir.
+- `stages.html` : redirection vers `experiences.html` pour conserver les anciens liens.
 
-## Ajouter le CV PDF
+## Déploiement
 
-Place le fichier PDF dans:
+Le site ne nécessite pas de backend et reste compatible GitHub Pages.
+
+URL de publication :
 
 ```text
-assets/media/cv-marc-sousa.pdf
+https://marcsousa91.github.io/portefolio/
 ```
 
-La page `cv.html` l'affichera dans le lecteur PDF intégré et gardera aussi une version HTML imprimable.
+## Vérification locale
 
-## Lancer localement
+Le site peut être ouvert directement depuis `index.html`.
 
-Le site est statique. Il peut être ouvert directement avec `index.html`.
-
-Pour un aperçu avec un serveur local:
+Option avec serveur local :
 
 ```bash
 python -m http.server 5173
 ```
 
-Puis ouvrir `http://localhost:5173`.
+Puis ouvrir :
+
+```text
+http://localhost:5173
+```
