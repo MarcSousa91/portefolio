@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV | Marc Sousa</title>
+    <meta name="description" content="CV de Marc Sousa, étudiant en troisième année de BUT Informatique.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header no-print">
+      <a class="brand" href="index.html" aria-label="Accueil du portfolio de Marc Sousa">
+        <span class="brand-mark">MS</span>
+        <span class="brand-text">Marc Sousa</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html" data-nav>Accueil</a>
+        <a href="projets.html" data-nav>Projets</a>
+        <a href="stages.html" data-nav>Stages</a>
+        <a href="competences.html" data-nav>Compétences</a>
+        <a href="cv.html" data-nav>CV</a>
+        <a href="contact.html" data-nav>Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero section-band no-print">
+        <div>
+          <p class="eyebrow">Parcours</p>
+          <h1>CV</h1>
+          <p class="lead">
+            Version web imprimable du CV, avec un emplacement prévu pour ajouter un PDF.
+          </p>
+          <button class="button button-primary" type="button" data-print>Imprimer ou exporter en PDF</button>
+        </div>
+      </section>
+
+      <section class="section no-print">
+        <div class="pdf-panel">
+          <div>
+            <p class="eyebrow">PDF</p>
+            <h2>CV joint</h2>
+            <p>Ajoute ton fichier sous <code>assets/media/cv-marc-sousa.pdf</code> pour l'afficher ici.</p>
+          </div>
+          <object class="pdf-frame" data="assets/media/cv-marc-sousa.pdf" type="application/pdf">
+            <p>Le PDF n'est pas encore ajouté. La version HTML ci-dessous est prête à imprimer.</p>
+          </object>
+        </div>
+      </section>
+
+      <section class="section cv-sheet" aria-label="CV de Marc Sousa">
+        <header class="cv-header">
+          <div>
+            <p class="eyebrow">CV</p>
+            <h2>Marc Sousa</h2>
+            <p>Étudiant en troisième année de BUT Informatique</p>
+          </div>
+          <div class="cv-contact">
+            <p>GitHub: github.com/MarcSousa91</p>
+            <p>E-mail: à compléter</p>
+            <p>LinkedIn: à compléter</p>
+          </div>
+        </header>
+
+        <div class="cv-grid">
+          <section>
+            <h3>Profil</h3>
+            <p>
+              Étudiant en BUT Informatique avec des expériences en développement web,
+              bases de données, Unity et architecture applicative. Intérêt particulier
+              pour les projets concrets reliant conception, code et déploiement.
+            </p>
+          </section>
+
+          <section>
+            <h3>Formation</h3>
+            <article class="cv-entry">
+              <h4>BUT Informatique - 3e année</h4>
+              <p>Spécialité informatique. Université/IUT à compléter.</p>
+            </article>
+          </section>
+
+          <section>
+            <h3>Expériences</h3>
+            <article class="cv-entry">
+              <h4>Stage - Wavekom</h4>
+              <p>Refonte d'une base de données locale avec serveur PostgreSQL et serveur web Scriptcase.</p>
+            </article>
+            <article class="cv-entry">
+              <h4>Stage/projet web</h4>
+              <p>Développement d'un site web complet avec React, Vite et hébergement bucket OVH.</p>
+            </article>
+          </section>
+
+          <section>
+            <h3>Projets</h3>
+            <article class="cv-entry">
+              <h4>Jeu vidéo Unity</h4>
+              <p>Génération procédurale de maps avec un algorithme DFS.</p>
+            </article>
+            <article class="cv-entry">
+              <h4>Portfolio scolaire</h4>
+              <p>Site personnel multi-pages présentant les projets, stages, compétences et CV.</p>
+            </article>
+          </section>
+
+          <section>
+            <h3>Compétences techniques</h3>
+            <p>HTML, CSS, JavaScript, React, Vite, C#, Unity, SQL, PostgreSQL, Scriptcase, Git, GitHub, OVH.</p>
+          </section>
+
+          <section>
+            <h3>Qualités professionnelles</h3>
+            <p>Autonomie, rigueur, analyse du besoin, documentation, collaboration et adaptation.</p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer no-print">
+      <p>© 2026 Marc Sousa. Portfolio scolaire BUT Informatique.</p>
+      <a href="contact.html">Me contacter</a>
+    </footer>
+  </body>
+</html>

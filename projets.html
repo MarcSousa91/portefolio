@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projets | Marc Sousa</title>
+    <meta name="description" content="Projets de Marc Sousa: Unity, DFS, développement web, React, Vite, OVH et bases de données.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Accueil du portfolio de Marc Sousa">
+        <span class="brand-mark">MS</span>
+        <span class="brand-text">Marc Sousa</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html" data-nav>Accueil</a>
+        <a href="projets.html" data-nav>Projets</a>
+        <a href="stages.html" data-nav>Stages</a>
+        <a href="competences.html" data-nav>Compétences</a>
+        <a href="cv.html" data-nav>CV</a>
+        <a href="contact.html" data-nav>Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero section-band">
+        <div>
+          <p class="eyebrow">Réalisations</p>
+          <h1>Projets</h1>
+          <p class="lead">
+            Une sélection de projets montrant ma progression en développement web,
+            algorithmique, bases de données et conception d'applications.
+          </p>
+        </div>
+      </section>
+
+      <section class="section project-list">
+        <article class="project-card">
+          <div class="project-visual visual-unity" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="project-content">
+            <span class="card-kicker">Jeu vidéo - Unity</span>
+            <h2>Génération procédurale de maps avec DFS</h2>
+            <p>
+              Conception d'un prototype de jeu dans Unity avec génération de cartes
+              procédurales. L'algorithme DFS permet de parcourir et construire une map
+              cohérente, avec une logique de progression contrôlée.
+            </p>
+            <div class="tag-list" aria-label="Technologies">
+              <span>C#</span>
+              <span>Unity</span>
+              <span>DFS</span>
+              <span>Algorithmique</span>
+              <span>Procédural</span>
+            </div>
+            <dl class="project-facts">
+              <div>
+                <dt>Objectif</dt>
+                <dd>Créer des niveaux variés sans construction manuelle complète.</dd>
+              </div>
+              <div>
+                <dt>Apports</dt>
+                <dd>Structure de graphe, logique de parcours, tests de génération et équilibrage.</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-web" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="project-content">
+            <span class="card-kicker">Web - React/Vite</span>
+            <h2>Site web complet hébergé avec OVH</h2>
+            <p>
+              Réalisation d'un site web complet avec une stack front-end moderne.
+              Le projet intègre React, Vite et une organisation de déploiement autour
+              d'un serveur bucket OVH.
+            </p>
+            <div class="tag-list" aria-label="Technologies">
+              <span>React</span>
+              <span>Vite</span>
+              <span>JavaScript</span>
+              <span>OVH</span>
+              <span>Bucket</span>
+            </div>
+            <dl class="project-facts">
+              <div>
+                <dt>Objectif</dt>
+                <dd>Construire une interface web moderne, responsive et déployable.</dd>
+              </div>
+              <div>
+                <dt>Détails à compléter</dt>
+                <dd>Nom du projet, fonctionnalités principales, lien de démonstration et captures.</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-data" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="project-content">
+            <span class="card-kicker">Données - Stage</span>
+            <h2>Refonte d'une base de données locale</h2>
+            <p>
+              Participation à une refonte complète d'une base locale vers une architecture
+              plus structurée: serveur PostgreSQL pour les données et serveur web Scriptcase
+              pour l'interface de gestion.
+            </p>
+            <div class="tag-list" aria-label="Technologies">
+              <span>PostgreSQL</span>
+              <span>SQL</span>
+              <span>Scriptcase</span>
+              <span>Serveur web</span>
+              <span>Modélisation</span>
+            </div>
+            <dl class="project-facts">
+              <div>
+                <dt>Objectif</dt>
+                <dd>Améliorer la fiabilité, la maintenance et l'accès aux données.</dd>
+              </div>
+              <div>
+                <dt>Apports</dt>
+                <dd>Analyse de l'existant, migration, structuration et tests.</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Marc Sousa. Portfolio scolaire BUT Informatique.</p>
+      <a href="contact.html">Me contacter</a>
+    </footer>
+  </body>
+</html>
