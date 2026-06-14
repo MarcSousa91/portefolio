@@ -12,6 +12,7 @@ Le site présente un profil hybride développement Full Stack / data :
 - Automatisation, reporting PDF/Excel et tableaux de bord.
 - Expériences MEDIA4 et WAVEKOM.
 - Projets complémentaires: budget communautaire et jeu labyrinthe Unity 3D avec DFS.
+- Visuels projet avec logos MEDIA4/WAVEKOM et images générées pour les projets budget et Unity.
 
 ## Pages
 
